@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: LionTest.LionGetFoodTest
+Test set: liontest.LionGetFoodTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in LionTest.LionGetFoodTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in liontest.LionGetFoodTest

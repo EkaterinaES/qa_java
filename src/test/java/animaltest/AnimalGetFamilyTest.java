@@ -1,7 +1,6 @@
-package AnimalTest;
+package animaltest;
 
 import com.example.Animal;
-import com.example.Feline;
 import org.junit.Assert;
 import org.junit.Test;
 

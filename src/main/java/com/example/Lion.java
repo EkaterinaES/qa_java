@@ -2,15 +2,12 @@ package com.example;
 
 import java.util.List;
 
-public class Lion {
-    Feline feline;
+public class Lion{
+    final Feline feline;
     boolean hasMane;
 
-    public Lion(Feline feline) {
+    public Lion(String sex, Feline feline) throws Exception {
         this.feline = feline;
-    }
-
-    public Lion(String sex) throws Exception {
         if ("Самец".equals(sex)) {
             hasMane = true;
         } else if ("Самка".equals(sex)) {
@@ -21,7 +18,8 @@ public class Lion {
     }
 
     public int getKittens() {
-        return feline.getKittens();
+       // return feline.getKittens();
+        return feline.getKittens();//но код должен реализовывать методы Feline
     }
 
     public boolean doesHaveMane() {
@@ -29,6 +27,7 @@ public class Lion {
     }
 
     public List<String> getFood() throws Exception {
-        return feline.getFood("Хищник");
+       // Feline feline = new Feline();//так что-ли получить feline?
+       return feline.getFood("Хищник");
     }
 }

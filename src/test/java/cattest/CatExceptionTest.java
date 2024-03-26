@@ -1,4 +1,4 @@
-package CatTest;
+package cattest;
 
 import com.example.Animal;
 import org.junit.Assert;

@@ -1,14 +1,12 @@
-package FelineTest;
+package felinetest;
 
 import com.example.Feline;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.mockito.Mockito;
 
 
-import java.util.Collections;
 import java.util.List;
 @RunWith(Parameterized.class)
 public class FelineEatFoodTest {

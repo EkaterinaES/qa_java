@@ -3,15 +3,9 @@ package com.example;
 import java.util.List;
 
 public class LionAlex extends Lion {
-    Feline feline;
-
-    public LionAlex(Feline feline) {
-        super(feline);
+    public LionAlex(Feline feline) throws Exception {
+        super("Самец", feline);
     }
-    public LionAlex() throws Exception {
-        super("Самец");
-    }
-
     @Override
     public int getKittens() {
         return 0;

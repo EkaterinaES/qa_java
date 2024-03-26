@@ -1,4 +1,4 @@
-package LionTest;
+package liontest;
 
 import com.example.Feline;
 import com.example.Lion;
@@ -14,8 +14,8 @@ public class LionGetKittensTest {
     Feline feline;
 
     @Test
-    public void getKittenTest() {
-        Lion lion = new Lion(feline);
+    public void getKittenTest() throws Exception {
+        Lion lion = new Lion("Самец", feline);
         lion.getKittens();
         Mockito.verify(feline).getKittens();
     }

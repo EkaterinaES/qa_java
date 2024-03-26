@@ -3,34 +3,28 @@
 import java.util.List;
 
 public class LionAlex extends Lion {
-    Feline feline;
-
-    public LionAlex(Feline feline) {
-<span class="fc" id="L9">        super(feline);</span>
-<span class="fc" id="L10">    }</span>
-    public LionAlex() throws Exception {
-<span class="fc" id="L12">        super(&quot;Самец&quot;);</span>
-<span class="fc" id="L13">    }</span>
-
+    public LionAlex(Feline feline) throws Exception {
+<span class="fc" id="L7">        super(&quot;Самец&quot;, feline);</span>
+<span class="fc" id="L8">    }</span>
     @Override
     public int getKittens() {
-<span class="fc" id="L17">        return 0;</span>
+<span class="fc" id="L11">        return 0;</span>
     }
 
     @Override
     public boolean doesHaveMane() {
-<span class="fc" id="L22">        return hasMane;</span>
+<span class="fc" id="L16">        return hasMane;</span>
     }
 
     @Override
     public List&lt;String&gt; getFood() throws Exception {
-<span class="fc" id="L27">        return super.feline.getFood(&quot;Хищник&quot;);</span>
+<span class="fc" id="L21">        return super.feline.getFood(&quot;Хищник&quot;);</span>
     }
     public List&lt;String&gt; getFriends(){
-<span class="fc" id="L30">        return List.of(&quot;зебра Марти&quot;, &quot;бегемотиха Глория&quot;, &quot;жираф Мелман&quot;);</span>
+<span class="fc" id="L24">        return List.of(&quot;зебра Марти&quot;, &quot;бегемотиха Глория&quot;, &quot;жираф Мелман&quot;);</span>
     }
     public String getPlaceOfLiving(){
-<span class="fc" id="L33">        return &quot;Нью-Йоркский зоопарк&quot;;</span>
+<span class="fc" id="L27">        return &quot;Нью-Йоркский зоопарк&quot;;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

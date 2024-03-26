@@ -1,5 +1,6 @@
-package LionTest;
+package liontest;
 
+import com.example.Feline;
 import com.example.Lion;
 import org.junit.Assert;
 import org.junit.Test;
@@ -26,7 +27,8 @@ public class LionHasManeTest {
 
     @Test
     public void HasManeTest() throws Exception {
-        Lion lion = new Lion(SEX);
+        Feline feline = new Feline();
+        Lion lion = new Lion(SEX, feline);
         boolean actual = lion.doesHaveMane();
         Assert.assertEquals(EXPECTED_HAS_MANE, actual);
     }
