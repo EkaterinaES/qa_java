@@ -1,0 +1,13 @@
+cattest\CatExceptionTest.class
+felinetest\FelineGetFamilyTest.class
+felinetest\FelineGetKittensTest.class
+liontest\LionExceptionTest.class
+liontest\LionHasManeTest.class
+liontest\LionGetFoodTest.class
+felinetest\FelineEatMeatTest.class
+liontest\LionGetKittensTest.class
+animaltest\AnimalGetFamilyTest.class
+felinetest\FelineEatFoodTest.class
+cattest\CatTest.class
+lionAlextest\LionAlexGetKittensHasManeTest.class
+felinetest\FelineExceptionTest.class
