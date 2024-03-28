@@ -18,8 +18,7 @@ public class Lion{
     }
 
     public int getKittens() {
-       // return feline.getKittens();
-        return feline.getKittens();//но код должен реализовывать методы Feline
+        return feline.getKittens();
     }
 
     public boolean doesHaveMane() {
@@ -27,7 +26,6 @@ public class Lion{
     }
 
     public List<String> getFood() throws Exception {
-       // Feline feline = new Feline();//так что-ли получить feline?
        return feline.getFood("Хищник");
     }
 }

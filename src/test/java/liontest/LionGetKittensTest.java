@@ -2,6 +2,7 @@ package liontest;
 
 import com.example.Feline;
 import com.example.Lion;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -16,8 +17,10 @@ public class LionGetKittensTest {
     @Test
     public void getKittenTest() throws Exception {
         Lion lion = new Lion("Самец", feline);
-        lion.getKittens();
-        Mockito.verify(feline).getKittens();
+        Mockito.when(feline.getKittens()).thenReturn(1);
+        Assert.assertEquals(1, lion.getKittens());
+        //Mockito.verify(feline).getKittens();
+
     }
 
 }

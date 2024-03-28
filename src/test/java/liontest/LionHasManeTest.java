@@ -17,7 +17,7 @@ public class LionHasManeTest {
         this.EXPECTED_HAS_MANE = EXPECTED_HAS_MANE;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "У {0} есть грива - {1}")
     public static Object[][] getData() {
         return new Object[][]{
                 {"Самка", false},

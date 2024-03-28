@@ -18,7 +18,7 @@ public class FelineEatFoodTest {
         this.WHAT_EAT = WHAT_EAT;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "{0} кушает {1}")
     public static Object[][] getData() {
         return new Object[][]{
                 {"Травоядное", List.of("Трава", "Различные растения")},

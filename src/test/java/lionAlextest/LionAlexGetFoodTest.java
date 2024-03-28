@@ -22,12 +22,4 @@ public class LionAlexGetFoodTest {
         lionAlex.getFood();
         Mockito.verify(feline, Mockito.times(1)).getFood("Хищник");
     }
-
-//    @Test
-//    public void getFoodFelineTestIntoGetFood() throws Exception {
-//        LionAlex lionAlex = new LionAlex(feline);
-//        List<String> actual = lionAlex.getFood();
-//        //String actual = feline.getFood("Хищник").toString();
-//        Assert.assertEquals(List.of("Животные", "Птицы", "Рыба").toString(), actual);
-//    }
 }
